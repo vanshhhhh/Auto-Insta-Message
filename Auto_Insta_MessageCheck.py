@@ -43,10 +43,10 @@ def check():
             c+=1
     except Exception:
         if c>0:
-            print("Auto-reply sent to unread messages")
+            #print("Auto-reply sent to unread messages")
             pyautogui.alert("Auto-reply sent to unread messages")
         else:
-            print("No new messages")
+            #print("No new messages")
             pyautogui.alert("\nNo new messages")
     pyautogui.alert("\n\nProgram completed \nBot exiting...")
     sleep(3)
