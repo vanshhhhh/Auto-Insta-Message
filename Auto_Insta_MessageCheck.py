@@ -5,8 +5,8 @@ import pyautogui
 def check():
     c=0
     #login
-    username="insta_auto_bot"
-    pw="vansh@sharma"
+    username=input("Enter your username : ")
+    pw=input("Enter your password : ")
     #options = webdriver.ChromeOptions()
     #options.add_argument('headless')
     driver = webdriver.Chrome()
